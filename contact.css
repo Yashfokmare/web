@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.navbar {
+    background-color:cornflowerblue;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height:90px;
+    /* display: flex;
+            justify-content: space-evenly; */
+  }
+  .navbar .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1em;
+    margin-left:450px;
+  }
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+  }
+  
+  .navbar .nav-links li a:hover {
+    background-color: #929d92;
+  }
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover, .nav-links li a.active {
+    color: #ffcc00;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background: #0e3c6b;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    gap: 2rem;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    margin-bottom: 1rem;
+    color: #1d5563;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.contact-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+    margin-left: 100px;
+}
+.stylish-button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    text-decoration: none; /* Removes underline from the link */
+    display: inline-block; /* Makes it look like a button */
+    text-align: center;
+}
+
+.stylish-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #3a475e, #7a00fd);
+}
+
+.stylish-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    margin-top: 10px;
+ margin-left:300px;
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Map Section */
+.map-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.map-container h2 {
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 0.5rem;
+    background: #183a5f;
+    color: #fff;
+}

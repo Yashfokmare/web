@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<style>
+  #und{
+background-image: url("09.jpg");
+background-size:cover;
+position: sticky;
+background-repeat:no-repeat;
+background-position:top bottom;
+height:600px;
+display: flex;
+flex-direction:column;
+align-items: center;
+background-position: center;
+animation-name:myani;
+animation-duration:7s ;
+animation-timing-function:linear;
+animation-iteration-count:infinte;
+}
+
+
+.wox3{
+  height:700px;
+  width:50%;
+  background-image: url("y1.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.wox4{
+    height:700px;
+    width:50%;
+    background-image: url("wep3.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+  }
+  .wox5{
+  height:500px;
+  width:100%;
+  background-image: url("cep15.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:top-bottom;
+}
+/* .wox6{
+    height:700px;
+    width:50%;
+    background-image: url("{{ url_for('static', filename='images/hush_2.jpg') }}");
+    background-size: cover;
+    background-repeat:no-repeat;
+  } */
+  .woxsub1{
+      display: flex;
+      justify-content: space-evenly;
+      margin:5px 5px;
+      gap:4px;
+   }
+   .woxsub2{
+      display: flex;
+      justify-content: space-evenly;
+      margin:5px 5px;
+      gap:4px;
+   }
+  /* .mu{
+      height:650px;
+      background-image: url(wep5.jpg);
+      background-size: cover;
+    background-repeat:no-repeat;
+    background-position:top-Bottom;
+  }  */
+  .ayu{
+    height:800px;
+      background-image: url("865.png");
+      background-size: cover;
+    background-repeat:no-repeat;
+    background-position:top-Bottom;
+  }
+  .impact-section {
+            text-align: center;
+            padding: 60px;
+            background-color: #e3f2fd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .impact-title {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #0277bd;
+            font-family: 'Arial', sans-serif;
+            animation: slideIn 1s ease-out;
+        }
+
+        .impact-description {
+            font-size: 1.3rem;
+            color: #555;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0;
+            animation: fadeInUp 1.5s 0.5s forwards;
+        }
+
+        .impact-counters {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            animation: scaleIn 1s ease-out 0.5s forwards;
+        }
+
+        .counter {
+            font-size: 4rem;
+            color: #ff5722;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .counter:hover {
+            color: #d32f2f;
+        }
+
+        .counter-label {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #0288d1;
+            font-family: 'Arial', sans-serif;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes scaleIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+</style>
+
+<body>
+  <div id="und">
+    <nav class="navbar">
+      <div class="cont">
+        <div class="logo">
+          <!-- <a href="">..सत्कर्म..</a> -->
+        </div>
+      
+        <ul class="nav-links">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="transaction.html">Donate</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="sign.html">Sign in</a></li>
+        </ul>
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+  </div>
+  <div class="container">
+    <div class="animated-text">
+      <h1 >Welcome to Samarpan Foundation</h1>
+    </div>
+  </div>
+  <section class="welcome">
+    <!-- <h1 id="er">Welcome to Satkarma Foundation</h1> -->
+    <p>We are committed to creating a just, inclusive, and sustainable world. Our mission is to empower vulnerable populations, provide access to education and healthcare, and protect the environment.</p>
+    <a href="/yup" class="learn-more-btn">Learn More</a>
+</section>
+<div class="woxsub2">
+  <div class="wox5">
+    <div class="wox-contain"></div>
+  </div>
+</div>
+<!-- Programs Section -->
+  <div class="woxsub1">
+    <div class="wox3">
+      <div class="wox-contain"></div>
+    </div>
+    <div class="wox4">
+      <div class="wox-contain"></div>
+    </div>
+  </div>
+  </div>
+  <section class="programs">
+    <h2>Our Key Programs</h2>
+    <div class="program-list">
+        <div class="program">
+            <h3>Education for All</h3>
+            <p>Providing quality education to underprivileged children and youth.</p>
+        </div>
+        <div class="program">
+            <h3>Healthcare Access</h3>
+            <p>Offering essential healthcare services to remote communities.</p>
+        </div>
+        <div class="program">
+            <h3>Environmental Conservation</h3>
+            <p>Promoting sustainability and protecting natural resources.</p>
+        </div>
+        <div class="program">
+            <h3>Human Rights Advocacy</h3>
+            <p>Supporting marginalized groups and fighting for equality.</p>
+        </div>
+    </div>
+</section>
+  <section class="impact-section">
+    <h2 class="impact-title">Our Impact So Far</h2>
+    <p class="impact-description">
+        At Samarpan Foundation, we strive to create meaningful change in the world. Through our efforts in education, environmental conservation, and community support, we have positively impacted thousands of lives. Below are some of the key figures that reflect the difference we've made together.
+    </p>
+    <div class="impact-counters">
+        <div>
+            <div class="counter" id="counter1">0</div>
+            <div class="counter-label">People Educated</div>
+        </div>
+        <div>
+            <div class="counter" id="counter2">0</div>
+            <div class="counter-label">More Donation </div>
+        </div>
+        <div>
+            <div class="counter" id="counter3">0</div>
+            <div class="counter-label">Lives Impacted</div>
+        </div>
+    </div>
+</section>
+  <div class="woxsub32"></div>
+  <div class="ayu"></div>
+      <div class="ew">
+        <h1 id="wq">Get Involved</h1>
+        <p id="ewq">
+          We invite you to be part of our journey. Whether through volunteering, donating, or spreading the word, your support is crucial in helping us achieve our mission. Together, we can [call to action, such as "create lasting change," "empower communities," etc.].
+        </p>
+        <div class="nb"></div>
+      </div>
+  
+      <div class="main">
+        <div class="cap1">
+          <h1>What We Do</h1>
+          <p id="qe">
+            Our platform serves as a bridge between NGOs and donors, allowing organizations to outline their needs and goals. We create tailored fundraising campaigns to help NGOs connect with the right supporters. Donors can choose to contribute financially, offer in-kind donations, or volunteer. Together, we build a global community dedicated to making a positive impact.
+          </p>
+        </div>
+  
+        <div class="cap2">
+          <h1>Who We Are</h1>
+          <p id="qe">
+            We are a passionate team of innovators committed to making a difference in the world through the power of technology. As a project-turned-startup, we are driven by a common goal: to create a bridge between NGOs and generous donors from around the globe. Our diverse team brings together expertise from various fields, united by a shared belief that technology can be a force for good. We aim to simplify the process of giving, making it easier and more accessible for donors to connect with the causes they care about most.
+          </p>
+        </div>
+  
+        <div class="cap3">
+          <h1>Why We Do It</h1>
+          <p id="qe">
+            We believe that every organization working towards positive change deserves the support they need to thrive. Often, the most impactful NGOs struggle to connect with the right resources and donors who can make a significant difference in their efforts. Our mission is to empower these organizations by amplifying their voices and ensuring their needs are heard and met. By facilitating transparent and targeted fundraising, we help donors make informed contributions that have a direct and meaningful impact on communities in need.
+          </p>
+        </div>
+      </div>
+  
+    </div>
+  <main></main>
+  <footer>
+    <div class="ayush4">
+      <div class="pages">
+        <a href="#">Condition of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Consumer Health Data Privacy Disclosure</a>
+        <a href="#">Your Ads Privacy Choices</a>
+      </div>
+      <div class="copyright">© 2024-207, Samarpan.com, Inc. or its affiliates</div>
+    </div>
+  </footer>
+  <script>
+    function animateCounter(id, start, end, duration) {
+        const obj = document.getElementById(id);
+        let startTime = null;
+
+        const step = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            obj.innerText = Math.floor(progress * (end - start) + start);
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        };
+
+        window.requestAnimationFrame(step);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        animateCounter("counter1", 0, 1000, 1500); // Example: 5000 people educated
+        animateCounter("counter2", 0, 1000, 1500); // Example: 2000 trees planted
+        animateCounter("counter3", 0, 2000, 1500); // Example: 10000 lives impacted
+    });
+</script>
+
+</body>
+    </html>
